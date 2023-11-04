@@ -1,0 +1,38 @@
+body{
+    font-family: 'Playpen Sans', cursive;;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    background-color: rgb(41, 37, 37);
+    border-radius: 10px;
+    padding: 25px;
+}
+.display input{
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    height: 40px;
+    
+}
+.button1{
+    padding: 10px;
+}
+.button1 input{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    color: black;
+    background-color: gray;
+}
+
+.button1 input:hover {
+    color: white;
+}
